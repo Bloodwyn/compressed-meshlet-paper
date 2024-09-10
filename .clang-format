@@ -1,0 +1,44 @@
+---
+BasedOnStyle: Google
+ColumnLimit: 120
+IndentWidth: 4
+AlignAfterOpenBracket: Align
+BreakBeforeBraces: Custom
+BraceWrapping:
+  AfterCaseLabel: false
+  AfterUnion: false
+  AfterStruct: false
+  SplitEmptyFunction: true
+  AfterNamespace: false
+  AfterClass: false
+  AfterFunction: true
+  AfterControlStatement: MultiLine
+  BeforeElse: false
+AllowShortIfStatementsOnASingleLine: false
+IndentCaseLabels: false
+DerivePointerAlignment: false
+PointerAlignment: Left
+AlignTrailingComments: true
+AllowShortBlocksOnASingleLine: false
+AlignConsecutiveAssignments: AcrossComments
+AlignConsecutiveDeclarations: AcrossComments
+AlignConsecutiveBitFields: AcrossComments
+AlignOperands: true
+AllowAllParametersOfDeclarationOnNextLine: false
+AllowAllArgumentsOnNextLine: true
+AllowShortCaseLabelsOnASingleLine: false
+BinPackArguments: false
+BinPackParameters: false
+AccessModifierOffset: -4
+ReflowComments: true
+SortIncludes: true
+SeparateDefinitionBlocks: Always
+TabWidth: 4
+AlwaysBreakTemplateDeclarations: Yes
+AllowShortFunctionsOnASingleLine: Empty
+UseTab: Never
+NamespaceIndentation: All
+QualifierAlignment: Left
+InsertBraces: True
+---
+Language: Cpp
